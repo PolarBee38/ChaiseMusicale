@@ -10,7 +10,7 @@ namespace ChaiseMusicale
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!!");
+            Console.WriteLine("Du!!");
             Console.ReadKey();
         }
     }
