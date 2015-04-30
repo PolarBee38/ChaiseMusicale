@@ -8,19 +8,25 @@ namespace ChaiseMusicale
 {
     class Circulaire:Table
     {
-        string _forme;
+        //private string _forme;
         
         //
         public Circulaire(int nbplaces):base(nbplaces)
         {
-            _forme = "";
+           // _forme = "";
         }
-
+        /*
         //GET
         public string get_forme()
         {
             return _forme;    
         }
+
+        //SET
+        private void get_forme(string form)
+        {
+            _forme = form;
+        }*/
 
     }
 }

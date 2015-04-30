@@ -6,26 +6,31 @@ using System.Threading.Tasks;
 
 namespace ChaiseMusicale
 {
-    abstract class Table
+    public class Table
     {
-        protected int _nbplaces;
+        private int _nbPlaces;
 
         //
         public Table(int nbplaces)
         {
-            _nbplaces = nbplaces;
+            _nbPlaces = nbplaces;
         }
 
-        //
+        //GET
         public int get_nbplaces()
         {
-            return this._nbplaces;
+            return this._nbPlaces;
         }
-        protected void set_nbplaces(int nbplaces) 
+
+        //SET
+        private void set_nbplaces(int nbplaces) 
         {
-            _nbplaces = nbplaces;
+            _nbPlaces = nbplaces;
         }
 
-
+        public override string ToString()
+        {
+            return "Table ";
+        }
     }
 }

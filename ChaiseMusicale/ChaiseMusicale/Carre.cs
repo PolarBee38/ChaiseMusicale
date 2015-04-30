@@ -8,7 +8,7 @@ namespace ChaiseMusicale
 {
     class Carre:Rectangulaire
     {
-        protected int _nbplacecote;
+        private int _nbPlaceCote;
         
         //
         public Carre(int nbplaceparcote)
@@ -18,13 +18,13 @@ namespace ChaiseMusicale
         //GET
         public int get_nbplacecote()
         {
-            return _nbplacecote;
+            return _nbPlaceCote;
         }
 
         //SET
         protected void set_nbplacecote(int cote)
         {
-            _nbplacecote = cote;
+            _nbPlaceCote = cote;
         }
 
         //Autres Méthodes

@@ -8,37 +8,40 @@ namespace ChaiseMusicale
 {
     class Rectangulaire:Table
     {
-        protected int _nbplacelongueur;
-        protected int _nbplacelargeur;
-
+        private int _nbPlaceLongueur;
+        private int _nbPlaceLargeur;
         
         //
-        public Rectangulaire(int cotecour, int cotelong):base(cotecour*cotelong)
+        public Rectangulaire(int cotecour, int cotelong):base((cotecour+cotelong)*2)
         {
-            _nbplacelargeur = cotecour;
-            _nbplacelongueur = cotelong;
+            _nbPlaceLargeur = cotecour;
+            _nbPlaceLongueur = cotelong;
         }
 
         //GET
         public int get_nbplacelongueur()
         {
-            return _nbplacelongueur;    
+            return _nbPlaceLongueur;    
         }
         public int get_nbplacelargeur()
         {
-            return _nbplacelargeur;
+            return _nbPlaceLargeur;
         }
 
         //SET
-        protected void set_nbplacelongueur(int longueur)
+        private void set_nbplacelongueur(int longueur)
         {
-            _nbplacelongueur = longueur;
+            _nbPlaceLongueur = longueur;
         }
-        protected void set_nbplacelargeur(int largeur)
+        private void set_nbplacelargeur(int largeur)
         {
-            _nbplacelargeur = largeur;
+            _nbPlaceLargeur = largeur;
         }
 
         //Autres Méthodes
+        public override string ToString()
+        { 
+            return base.ToString()+"rectangulaire || " +get_nbplaces()+" places || " + get_nbplacelongueur() + " en longueur || " +get_nbplacelargeur()+ " en largeur";
+        }
     }
 }

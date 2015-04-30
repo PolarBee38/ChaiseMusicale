@@ -9,6 +9,7 @@ namespace ChaiseMusicale
     class RectangulaireJumelable: Rectangulaire, Jumelable
     {
         //
+        public RectangulaireJumelable(int nbplacelong, int nbplacelarge) : base(nbplacelarge, nbplacelong) { }
 
         //Autres Méthodes
     }
