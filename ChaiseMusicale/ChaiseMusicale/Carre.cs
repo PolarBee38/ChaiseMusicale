@@ -11,8 +11,8 @@ namespace ChaiseMusicale
         private int _nbPlaceCote;
         
         //
-        public Carre(int nbplaceparcote)
-            : base(nbplaceparcote, nbplaceparcote)
+        public Carre(int nbplaceparcote, int taille)
+            : base(nbplaceparcote, nbplaceparcote, taille)
         { }
 
         //GET
@@ -28,5 +28,11 @@ namespace ChaiseMusicale
         }
 
         //Autres Méthodes
+        //Autres Méthodes
+        public override string ToString()
+        {
+            Table t = this as Table;
+            return t + "carrée de " + get_nbplaces() + " places || " + get_nbplacecote() + " de cote";
+        }
     }
 }

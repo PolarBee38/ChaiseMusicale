@@ -11,7 +11,7 @@ namespace ChaiseMusicale
         //private string _forme;
         
         //
-        public Circulaire(int nbplaces):base(nbplaces)
+        public Circulaire(int nbplaces, double hauteur):base(nbplaces, hauteur)
         {
            // _forme = "";
         }
@@ -27,6 +27,13 @@ namespace ChaiseMusicale
         {
             _forme = form;
         }*/
+
+        //Autres Méthodes
+        public override string ToString()
+        {
+            Table t = this as Table;
+            return t+"circulaire de " + get_nbplaces() + " places";
+        }
 
     }
 }

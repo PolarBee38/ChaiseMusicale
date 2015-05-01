@@ -9,11 +9,13 @@ namespace ChaiseMusicale
     public class Table
     {
         private int _nbPlaces;
+        private double _hauteur; //en cm
 
         //
-        public Table(int nbplaces)
+        protected Table(int nbplaces, double taille)
         {
             _nbPlaces = nbplaces;
+            _hauteur = taille;
         }
 
         //GET
@@ -21,11 +23,19 @@ namespace ChaiseMusicale
         {
             return this._nbPlaces;
         }
+        public double get_hauteur()
+        {
+            return _hauteur;
+        }
 
         //SET
         private void set_nbplaces(int nbplaces) 
         {
             _nbPlaces = nbplaces;
+        }
+        private void set_hauteur(double hauteur)
+        {
+            _hauteur = hauteur;
         }
 
         public override string ToString()

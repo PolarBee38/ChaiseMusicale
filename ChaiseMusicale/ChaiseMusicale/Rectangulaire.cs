@@ -12,7 +12,7 @@ namespace ChaiseMusicale
         private int _nbPlaceLargeur;
         
         //
-        public Rectangulaire(int cotecour, int cotelong):base((cotecour+cotelong)*2)
+        public Rectangulaire(int cotecour, int cotelong, int taille):base((cotecour+cotelong)*2, taille)
         {
             _nbPlaceLargeur = cotecour;
             _nbPlaceLongueur = cotelong;
@@ -41,7 +41,7 @@ namespace ChaiseMusicale
         //Autres Méthodes
         public override string ToString()
         { 
-            return base.ToString()+"rectangulaire || " +get_nbplaces()+" places || " + get_nbplacelongueur() + " en longueur || " +get_nbplacelargeur()+ " en largeur";
+            return base.ToString()+"rectangulaire de "+ get_nbplaces()+" places || " + get_nbplacelongueur() + " de long || " +get_nbplacelargeur()+ " de large";
         }
     }
 }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ChaiseMusicale
 {
-    interface Jumelable
+    public interface Jumelable
     {
-
+        bool jumelerAvec(Table table);
     }
 }
