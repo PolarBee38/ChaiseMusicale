@@ -11,7 +11,7 @@ namespace ChaiseMusicale
         //private string _forme;
         
         //
-        public Circulaire(int nbplaces, double hauteur):base(nbplaces, hauteur)
+        public Circulaire(int nbplaces, int hauteur):base(nbplaces, hauteur)
         {
            // _forme = "";
         }

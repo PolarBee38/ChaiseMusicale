@@ -9,10 +9,10 @@ namespace ChaiseMusicale
     public class Table
     {
         private int _nbPlaces;
-        private double _hauteur; //en cm
+        private int _hauteur; //en cm
 
         //
-        protected Table(int nbplaces, double taille)
+        protected Table(int nbplaces, int taille)
         {
             _nbPlaces = nbplaces;
             _hauteur = taille;
@@ -23,7 +23,7 @@ namespace ChaiseMusicale
         {
             return this._nbPlaces;
         }
-        public double get_hauteur()
+        public int get_hauteur()
         {
             return _hauteur;
         }
@@ -33,7 +33,7 @@ namespace ChaiseMusicale
         {
             _nbPlaces = nbplaces;
         }
-        private void set_hauteur(double hauteur)
+        private void set_hauteur(int hauteur)
         {
             _hauteur = hauteur;
         }
