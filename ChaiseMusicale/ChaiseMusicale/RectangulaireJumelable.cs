@@ -67,7 +67,7 @@ namespace ChaiseMusicale
                     return nouvelleTable;
                 }
             }
-            Console.WriteLine("Erreur lors d'un jumelage. Recommencer.");
+            Console.WriteLine("Erreur lors du jumelage. Recommencer.");
             return null;
         }
 
