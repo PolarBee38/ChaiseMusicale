@@ -41,8 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Carre.cs" />
+    <Compile Include="CarreJumelable.cs" />
+    <Compile Include="Circulaire.cs" />
+    <Compile Include="Jumelable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangulaire.cs" />
+    <Compile Include="RectangulaireJumelable.cs" />
+    <Compile Include="Restaurant.cs" />
+    <Compile Include="Table.cs" />
+    <Compile Include="XML.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
