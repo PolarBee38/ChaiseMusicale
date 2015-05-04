@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChaiseMusicale
 {
-    public class Table
+	abstract class Table
     {
         private int _nbPlaces;
         private int _hauteur; //en cm

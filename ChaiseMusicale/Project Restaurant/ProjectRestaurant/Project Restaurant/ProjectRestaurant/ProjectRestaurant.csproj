@@ -35,33 +35,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ProjectRestaurant\Carre.cs" />
-    <Compile Include="ProjectRestaurant\CarreJumelable.cs" />
-    <Compile Include="ProjectRestaurant\Circulaire.cs" />
-    <Compile Include="ProjectRestaurant\Jumelable.cs" />
-    <Compile Include="ProjectRestaurant\MonteCarloSimulation.cs" />
-    <Compile Include="ProjectRestaurant\Program.cs" />
-    <Compile Include="ProjectRestaurant\Rectangulaire.cs" />
-    <Compile Include="ProjectRestaurant\RectangulaireJumelable.cs" />
-    <Compile Include="ProjectRestaurant\Request.cs" />
-    <Compile Include="ProjectRestaurant\Reservation.cs" />
-    <Compile Include="ProjectRestaurant\Restaurant.cs" />
-    <Compile Include="ProjectRestaurant\Table.cs" />
-    <Compile Include="ProjectRestaurant\TableConfiguration.cs" />
-    <Compile Include="ProjectRestaurant\XML.cs" />
-    <Compile Include="ProjectRestaurant\ProjectRestaurant\Program.cs" />
-    <Compile Include="ProjectRestaurant\ProjectRestaurant\Properties\AssemblyInfo.cs" />
-    <Compile Include="ProjectRestaurant\Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ChaiseMusicale\" />
-    <Folder Include="ProjectRestaurant\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ProjectRestaurant\ChaiseMusicale.userprefs" />
-    <None Include="ProjectRestaurant\ProjectRestaurant.sln" />
-    <None Include="ProjectRestaurant\ProjectRestaurant.userprefs" />
-    <None Include="ProjectRestaurant\ProjectRestaurant\ProjectRestaurant.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
