@@ -1,13 +1,11 @@
-﻿using System;
+﻿/*using System;
 
 namespace ChaiseMusicale
 {
 	public class MonteCarloSimulation
 	{
 		private Request _request; 
-		public Simulation ()
-		{
-		}
+		//public Simulation (){}
 
 		public int MonteCarlo(int numberOfIteration,int maxSize, int maxRequest, int maxTimeSlot, Table[] tableList)
 		{
@@ -21,7 +19,7 @@ namespace ChaiseMusicale
 				simulatedSeatCount = simulatedSeatCount + futureSeat; 
 			}
 			meanSeatCount = simulatedSeatCount / numberOfIteration; 
-			return meanSeatCount; 
+			return meanSeatCount;
 		}
 
 		public Request[] futureSimulation(int maxSize, int maxRequest, int maxTimeSlot)
@@ -89,16 +87,12 @@ namespace ChaiseMusicale
 						// assign table to request 
 						// update table status 
 						request.assignRequest(); 
-						futureSeatCount += request.getSize; 
+						futureSeatCount += request.getSize;
 						break; 	
 					}
 				}
 			}
-
 			return futureSeatCount; 
 		}
-
-
 	}
-}
-
+}*/

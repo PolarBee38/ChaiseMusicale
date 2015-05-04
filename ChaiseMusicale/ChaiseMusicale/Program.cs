@@ -21,7 +21,6 @@ namespace ChaiseMusicale
             RectangulaireJumelable table2 = new RectangulaireJumelable(1, 5, 80);
             Console.WriteLine(table2.jumelerAvec(table2));
 
-
             MonResto.ajouterTable(table);
             MonResto.ajouterTable(table);
             MonResto.ajouterTable(table2);
