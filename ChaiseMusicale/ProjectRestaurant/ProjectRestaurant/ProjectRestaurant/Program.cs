@@ -29,6 +29,8 @@ namespace ChaiseMusicale
             Console.WriteLine(MonResto.afficherTables(MonResto.get_listeTables()));
             Console.ReadKey();
         }
+
+		Console.WriteLine("test"); 
 			
     }
 }
